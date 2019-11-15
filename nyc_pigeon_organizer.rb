@@ -1,15 +1,15 @@
 def nyc_pigeon_organizer(data)
-  new_data ={}
+  pigeon_data ={}
   data.each do |key,value| 
     value.each do |attribute, pigeons_names|
       pigeons_names.each do |name|
-      if pigeon_list.has_key?(name)
-        if pigeon_list[name].has_key?(key)
-          pigeon_list[name][key] << attribute.to_s
+      if pigeon_data.has_key?(name)
+        if pigeon_data[name].has_key?(key)
+          pigeon_data[name][key] << attribute.to_s
         else
-          pigeon_list[name][key]=[attribute.to_s]
+          pigeon_data[name][key]=[attribute.to_s]
         end
-  
+  pigeon_data[name]=
   
   
 end
