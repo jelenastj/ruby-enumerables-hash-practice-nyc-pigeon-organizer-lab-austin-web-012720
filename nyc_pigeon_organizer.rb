@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
     value.each do |attribute, pigeons_names|
       pigeons_names.each do |name|
       if pigeon_list.has_key?(name)
-        
+        if pigeon_list[name].has_key?(key)
   
   
   
