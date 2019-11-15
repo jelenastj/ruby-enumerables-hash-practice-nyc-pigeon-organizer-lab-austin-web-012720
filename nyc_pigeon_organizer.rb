@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
         else
           pigeon_data[name][key]=[attribute.to_s]
         end
-  pigeon_data[name]=
+  pigeon_data[name]={key=>
   
   
 end
