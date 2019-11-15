@@ -10,8 +10,8 @@ def nyc_pigeon_organizer(data)
           pigeon_data[name][key]=[attribute.to_s]
         end
   pigeon_data[name]={key=>[attribute.to_s]
+        end
       end
-end
   
   
 end
