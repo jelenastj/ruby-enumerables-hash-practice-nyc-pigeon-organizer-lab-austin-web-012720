@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
           pigeon_list[name][key] << attribute.to_s
         else
           pigeon_list[name][key]={attribute.to_s]
+        end
   
   
   
